@@ -1,3 +1,5 @@
+#### This is a fork of the LittleLink Project, adjusted to serve as a landing page for me. If you want to fork the original project or support the original creator, you can find the original repository below the name of this one.
+
 ![Logo](https://cdn.cottle.cloud/littlelink/littlelink.gif)
 
 # LittleLink
