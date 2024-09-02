@@ -149,10 +149,10 @@ body {
 
 .bottomblock-moving {
   position: absolute;
-  height: 80vh;
+  height: 1500px;
   width: 300vw;
   background-color: #f5979b;
-  transform: translate(-50%, -20%) rotate(-7deg);
+  transform: translate(-40%, -15%) rotate(-7deg);
   margin-top: 22%;
   z-index: -5;
   overflow: hidden;
@@ -338,4 +338,26 @@ li {
   margin: 10px;
   margin-top: 20px;
   color: white;
+}
+
+.snap-image-large {
+  min-width: 500px; 
+  max-width: 91%;
+}
+
+.snap-image-small {
+  min-width: 250px; 
+  max-width: 45%;
+}
+
+@media (max-width: 630px) {
+  .snap-image-large {
+    min-width: 250px; 
+    max-width: 85%;
+  }
+
+  .snap-image-small {
+    min-width: 250px; 
+    max-width: 85%;
+  }
 }
